@@ -52,6 +52,19 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Vendor dashboard specific colors
+				cta: {
+					DEFAULT: 'hsl(var(--cta))',
+					foreground: 'hsl(var(--cta-foreground))'
+				},
+				status: {
+					pooling: 'hsl(var(--status-pooling))',
+					'pooling-foreground': 'hsl(var(--status-pooling-foreground))',
+					won: 'hsl(var(--status-won))',
+					'won-foreground': 'hsl(var(--status-won-foreground))',
+					lost: 'hsl(var(--status-lost))',
+					'lost-foreground': 'hsl(var(--status-lost-foreground))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

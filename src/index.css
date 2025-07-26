@@ -2,13 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* Boli-Lagao Vendor Dashboard Design System
+Google-inspired aesthetic with clean, modern vendor-focused design
 All colors MUST be HSL.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    /* Base colors - off-white and light grays */
+    --background: 210 20% 98%;
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
@@ -17,9 +19,11 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
+    /* Primary brand - deep greenish tone */
+    --primary: 184 25% 32%;
     --primary-foreground: 210 40% 98%;
 
+    /* Secondary - light grays */
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
@@ -29,14 +33,26 @@ All colors MUST be HSL.
     --accent: 210 40% 96.1%;
     --accent-foreground: 222.2 47.4% 11.2%;
 
+    /* Teal accent for CTAs */
+    --cta: 158 64% 52%;
+    --cta-foreground: 0 0% 100%;
+
+    /* Status colors */
+    --status-pooling: 213 94% 68%;
+    --status-pooling-foreground: 213 31% 91%;
+    --status-won: 142 76% 36%;
+    --status-won-foreground: 138 76% 97%;
+    --status-lost: 0 84% 60%;
+    --status-lost-foreground: 0 93% 94%;
+
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 184 25% 32%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
